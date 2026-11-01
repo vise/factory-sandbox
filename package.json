@@ -1,0 +1,23 @@
+{
+  "name": "factory-sandbox",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Sandbox for testing an AI software factory",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port ${PORT:-5173} --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.14.0",
+    "globals": "^17.13.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.72.1",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}
